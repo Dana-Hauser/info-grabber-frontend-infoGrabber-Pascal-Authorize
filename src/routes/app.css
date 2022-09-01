@@ -1,0 +1,194 @@
+/* Projekte app.css, my-app-master*/
+
+.projekte_menülinks{
+    height: 81vh;
+    width: 20%;
+    background-color: #215f7e;
+    overflow-x: scroll;
+    color: #4C5356;
+    float: left;
+    background-color: #215f7e;
+    -webkit-box-shadow: 0 0.25rem 0.5rem 0.063rem rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0.25rem 0.5rem 0.063rem rgba(0, 0, 0, 0.24);
+}
+
+.projekt_selected{
+    display: none;
+    width:71%;
+    height: 81vh;
+    background-color: #f0f1f2;
+    color: #4C5356;
+    float: left;
+    padding: 40px;
+    -webkit-box-shadow: 0 0.25rem 0.5rem 0.063rem rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0.25rem 0.5rem 0.063rem rgba(0, 0, 0, 0.24);
+
+}
+.suchfeld{
+    position: relative;
+    line-height: 1.5;
+    letter-spacing: 0.0125rem;
+    font-family: "GroupUI", sans-serif;
+    height: 2.5rem;
+    font-size: 1rem;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 0.0625rem solid rgb(168, 173, 179);
+    border-radius: 0.125rem;
+    outline: currentcolor none medium;
+    color: rgb(76, 83, 86);
+    display: block;
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px;
+    padding: 0.4375rem 2.4375rem;
+}
+
+.schriftfarbe_dunkel{
+    color: #4C5356
+}
+
+#modal{
+    padding-left: 5px;
+}
+
+.header_item{
+    float:left;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+/* Tooltip */
+.tooltip_rahmen{
+    float:right;  
+}
+
+.tooltip_popup{
+    padding: 5%; 
+    padding-right: 5px;
+    position: absolute; 
+    z-index: 0;
+    display:block;
+}
+
+/* Div Arten */
+.box1{
+    background-color: #20607E;
+    color: #FFF;
+}
+
+.box2{
+    background-color: #DFE2E6;
+}
+
+.box3{
+    background-color: #00354D;
+    color: #FFFFFF;
+}
+
+.objektmittig_außen{
+    width:100%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Icon */
+.icon_element{
+    height: 30px;
+    width: 15%; 
+    float: left;
+}
+
+.icon_element2{
+    height: 40px;
+    width: 15%; 
+    float: right;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.icon_schrift{
+    font-size: 13px;
+}
+
+groupui-headline{
+    color:#FFF
+}
+
+groupui-header{
+    position: fixed;
+    top: 0%;
+    z-index: 50;
+}
+p{
+  font-family: "GroupUI", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.footer{
+    position: fixed;
+    bottom:0%;
+    width: 100vw;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+    font-family: "GroupUI", sans-serif;
+    font-size: 1rem;
+}
+
+.link{
+    text-decoration: none;
+    color: white
+}
+
+/* Einstellungen */
+.einstellungen-side-bar{
+    height: 500px;
+    color: #4C5356;
+    float: left;
+    width: 30%;
+    background-color: #215f7e;
+    -webkit-box-shadow: 0 0.25rem 0.5rem 0.063rem rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0.25rem 0.5rem 0.063rem rgba(0, 0, 0, 0.24);
+}
+.einstellungen-side-bar-elements{
+    background-color: #215f7e;
+    color: white;
+    padding: 15px;
+}
+.einstellungen-side-bar-elements:hover{
+    background-color: #004666;
+}
+.einstellungen-selected{
+    display: none;
+    width:65%;
+    height: 500px;
+    background-color: #f0f1f2;
+    color: #4C5356;
+    float: left;
+    padding: 0 10px 0 10px;
+    -webkit-box-shadow: 0 0.25rem 0.5rem 0.063rem rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0.25rem 0.5rem 0.063rem rgba(0, 0, 0, 0.24);
+}
+.sidebar_selected{
+    background-color: #00354d;
+}
+
+.closedialog{
+    margin-left:560px;
+    display: table;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    position: fixed;
+    float:right;
+    text-align: center;
+}
